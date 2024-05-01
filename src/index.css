@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  font-family: "Karla", sans-serif;
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.btn {
+  transition: opacity 0.3s;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.input:focus {
+  outline: 3px solid #ccc;
+}
+
+.img {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  font-size: 34px;
+  color: white;
+  stroke: 2px solid blue;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+  text-transform: uppercase;
+}
+
+.bottom-text {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.top-text {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
